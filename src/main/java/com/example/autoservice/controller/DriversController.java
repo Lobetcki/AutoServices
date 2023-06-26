@@ -2,6 +2,7 @@ package com.example.autoservice.controller;
 
 import com.example.autoservice.dto.CarDTO;
 import com.example.autoservice.dto.DriverDTO;
+import com.example.autoservice.dto.BalanceDTO;
 import com.example.autoservice.service.DriverService;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;

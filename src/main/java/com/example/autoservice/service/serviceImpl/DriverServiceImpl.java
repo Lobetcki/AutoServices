@@ -1,5 +1,6 @@
 package com.example.autoservice.service.serviceImpl;
 
+import com.example.autoservice.dto.BalanceDTO;
 import com.example.autoservice.dto.CarDTO;
 import com.example.autoservice.dto.DriverDTO;
 import com.example.autoservice.service.DriverService;
@@ -45,5 +46,10 @@ public class DriverServiceImpl implements DriverService {
     @Override
     public boolean assignCarToDriver(Long id, Long carId) {
         return false;
+    }
+
+    @Override
+    public BalanceDTO getBalance(Long driverId, String currency) {
+        return null;
     }
 }

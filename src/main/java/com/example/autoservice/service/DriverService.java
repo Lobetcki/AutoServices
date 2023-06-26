@@ -1,5 +1,6 @@
 package com.example.autoservice.service;
 
+import com.example.autoservice.dto.BalanceDTO;
 import com.example.autoservice.dto.CarDTO;
 import com.example.autoservice.dto.DriverDTO;
 import org.springframework.stereotype.Service;
@@ -23,4 +24,6 @@ public interface DriverService {
     List<CarDTO> getDriverCars(Long id);
 
     boolean assignCarToDriver(Long id, Long carId);
+
+    BalanceDTO getBalance(Long driverId, String currency);
 }
