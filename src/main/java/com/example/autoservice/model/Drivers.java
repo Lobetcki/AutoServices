@@ -21,6 +21,8 @@ public class Drivers {
     private LocalDate dateOfBirth;
     private Integer experience;
 
+    private Integer cash;
+
     @OneToMany
     private List<Cars> cars;
 
